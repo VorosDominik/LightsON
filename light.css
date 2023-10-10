@@ -1,0 +1,70 @@
+body {
+    background: beige;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  main {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  
+   
+  }
+  aside{
+    width: 80%;
+    max-width: 800px;
+    margin: 30px;
+    background: white;
+    padding: 30px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+   
+  }
+.elem{
+    height: 60px;
+    width: 60px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+#GAME{
+    margin: auto;
+    width: 160px;
+    display: grid;
+    font-size: 30px;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-columns: 60px 60px 60px;
+    cursor:grab;
+}
+.Piros{
+
+
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.Kék{
+
+
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.elem:hover{
+    background-color: antiquewhite;
+}
+header{
+    text-align: center;
+}
