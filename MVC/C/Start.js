@@ -1,5 +1,5 @@
 import { Modell } from "../M/Modell.js";
-import { Lightgame } from "../V/lightgame.js";
+import { Lightgame } from "../V/Lightgame.js";
 import { Info } from "../V/Info.js";
 export class Start {
     
